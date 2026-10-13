@@ -1,6 +1,19 @@
 #!/usr/bin/env python3
 # Pomalý test chôdze G1: postupne spustí niekoľko pohybov a po každom zastaví.
 # Spúšťa sa na Jetsone robota (cez SSH). Robot musí byť v režime chôdze.
+#
+# Použitie (bez argumentov, rozhranie je nastavené v INTERFACE):
+#   python3 loco_test.py
+#
+# Príklad behu: pred každým pohybom stlač Enter, Ctrl+C robota kedykoľvek zastaví.
+#   $ python3 loco_test.py
+#   Interface: eth0
+#   Initializing DDS...
+#   WARNING: Uisti sa, že okolo robota nie sú prekážky.
+#   [Enter] dopredu pomaly: vx=0.2, vy=0.0, vyaw=0.0, 3.0 s
+#     Hotovo. Zmeraj prejdenú vzdialenosť alebo uhol.
+#   [Enter] otočenie (+vyaw): vx=0.0, vy=0.0, vyaw=0.3, 3.0 s
+#   ...
 
 import time
 
