@@ -3,7 +3,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 CAMERA = "/dev/video6"
 HOST = "0.0.0.0"
-PORT = 8080
+PORT = 8081
 
 cap = cv2.VideoCapture(CAMERA, cv2.CAP_V4L2)
 

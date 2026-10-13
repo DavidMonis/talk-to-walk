@@ -26,8 +26,9 @@ Robot, na ktorom beží projekt TalkToWalk.
 ## Skripty pre robota
 
 - `action.py`: spustenie gesta rúk podľa ID.
+- `loco_test.py`: pomalý test chôdze (dopredu, otočenia), meranie reálnej rýchlosti oproti zadanej.
 - `snapshot.py`: na Jetsone prejde `/dev/video0` až `/dev/video7` a uloží snímku z každej kamery.
-- `stream.py`: MJPEG stream kamery `/dev/video6` cez HTTP na porte 8080.
+- `stream.py`: MJPEG stream kamery `/dev/video6` cez HTTP na porte 8081.
 - `snapshot_video2.jpg`, `snapshot_video6.jpg`: ukážkové snímky (IR a RGB).
 
 ## Ďalší hardvér
