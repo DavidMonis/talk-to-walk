@@ -1,0 +1,40 @@
+UNITREE G1 — AVAILABLE ACTIONS
+================================
+
+ARM ACTIONS
+-----------
+
+ID   NAME                           REQUIREMENTS
+99   release_arm                    -
+1    turn_back_wave                 FSM: 500, 501
+11   blow_kiss_with_both_hands     -
+12   blow_kiss_with_left_hand      -
+13   blow_kiss_with_right_hand     -
+15   both_hands_up                 -
+17   clamp                         -
+18   high_five                     -
+19   hug                           -
+20   make_heart_with_both_hands    mode_machine: 5, 6
+21   make_heart_with_right_hand    mode_machine: 5, 6
+22   refuse                        -
+23   right_hand_up                 -
+24   ultraman_ray                  -
+25   wave_under_head               -
+26   wave_above_head               -
+27   shake_hand                    -
+28   box_left_hand_win             mode_machine: 5, 6
+29   box_right_hand_win            mode_machine: 5, 6
+30   box_both_hand_win             mode_machine: 5, 6
+33   right_hand_on_heart           -
+34   both_hands_up_deviate_right   -
+36   forward_push                  mode_machine: 5, 6
+
+
+DANCE / OTHER ACTIONS
+---------------------
+
+NAME                TIME
+Waist_Drum_Dance     9.5 s
+Scratch_head        8.1 s
+Spin_discs          6.9 s
+Throw_money         8.1 s
