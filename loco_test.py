@@ -24,10 +24,10 @@ from unitree_sdk2py.g1.loco.g1_loco_client import LocoClient
 INTERFACE = "eth0"
 
 TESTS = [  # (popis, vx [m/s], vy [m/s], vyaw [rad/s], trvanie [s])
-    ("dopredu pomaly", 0.2, 0.0, 0.0, 3.0),
-    ("otočenie (+vyaw)", 0.0, 0.0, 0.3, 3.0),
-    ("otočenie (-vyaw)", 0.0, 0.0, -0.3, 3.0),
-    ("dopredu rýchlejšie", 0.4, 0.0, 0.0, 3.0),
+    ("dopredu pomaly", -0.1, 0.0, 0.0, 3.0),
+    ("otočenie (+vyaw)", 0.0, 0.0, 1, 3.0),
+#    ("otočenie (-vyaw)", 0.0, 0.0, -0.5, 3.0),
+#    ("dopredu rýchlejšie", 0.4, 0.0, 0.0, 3.0),
 ]
 
 
